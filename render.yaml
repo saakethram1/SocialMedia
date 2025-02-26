@@ -1,7 +1,7 @@
 services:
   - type: web
     name: zosh-social-youtube
-    env: docker  # Change to "java" if not using Docker
+    env: java # Change to "java" if not using Docker
     plan: free  # Change if needed (free, starter, standard, pro)
     region: oregon  # Choose your preferred Render region
     repo: https://github.com/saakethram1/SocialMedia
