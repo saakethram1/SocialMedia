@@ -19,7 +19,7 @@ services:
       - key: SPRING_DATASOURCE_URL
         value: "jdbc:mysql://your-mysql-host:3306/zosh_social"
       
-      - key: SPRING_DATASOURCE_USERNAME
+      - key: SPRING_DATASOURCE_USERNAME  
         value: "root"
       
       - key: SPRING_DATASOURCE_PASSWORD
