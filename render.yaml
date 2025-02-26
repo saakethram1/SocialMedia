@@ -6,8 +6,7 @@ services:
     region: oregon  # Choose your preferred Render region
     repo: https://github.com/saakethram1/SocialMedia
     branch: main
-    buildCommand: "./mvnw clean install"  # Adjust if using Gradle
-    startCommand: "java -jar target/*.jar"
+    buildCommand: ""  # Adjust if using Gradle
     
     envVars:
       - key: SERVER_PORT
