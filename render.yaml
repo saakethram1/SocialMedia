@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: zosh-social-youtube
+    name: ChattingSocial
     env: java # Change to "java" if not using Docker
     plan: free  # Change if needed (free, starter, standard, pro)
     region: oregon  # Choose your preferred Render region
