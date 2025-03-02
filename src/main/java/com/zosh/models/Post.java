@@ -28,8 +28,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name="posts")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class Post {
 
 	

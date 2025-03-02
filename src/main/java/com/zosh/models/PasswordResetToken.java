@@ -18,8 +18,7 @@ import lombok.RequiredArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
+
 public class PasswordResetToken {
 	
 	

@@ -22,8 +22,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name="stories")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class Story {
 	
 	@Id

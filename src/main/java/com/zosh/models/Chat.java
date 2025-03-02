@@ -25,8 +25,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name="Chats")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class Chat {
 	
 
